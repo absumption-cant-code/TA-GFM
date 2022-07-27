@@ -1,0 +1,11 @@
+**1 - You are looking at the documentation for physically manipulating an object. You see methods to apply either a transformation, impulse, or force.**
+
+*How would you expect these 3 to vary behaviorally?*
+    ```- When looking at the functionality of the three presented methods, it is clear that the two methods account, impulse and force, are relative to the physics enacted on the object, while the first method, transformation ( transform ) does not
+        take physics into account and is instantaneous in its visualization. I'd expect transform to result in an instantaneous change in position or orientation of the object. I'd expect impulse to be a sudden physics-based force applied on the object
+        on a specified surface or towards a specified direction with a further specified force. I'd expect the force method to be a constant physics-based movement method.```
+
+*If I fill on the value 10 for the parameters of each one what would happen to the object in each case?*
+    ``` - If you were to pass a value of 10 to the parameters of each method, I would expect that in each respective case, a new result would be returned. For the transformation method, I would expect the object to be moved to a position of (10, 10, 10) if the value passed was properly formatted as a Vector and expected as such by the function. I would expect the impulse function to cause a sudden "push" on the object either towards the Vector of (10, 10, 10) or a vector like it, or be "pushed" in a default direction with a force of 10. I would also expect the force method to behave similiarily however, the "push" on the object would remain constant and would not dwindleand would continue to stay in motion, consistent with Newton's Third law of Physics. I'd expect the force to remain constant however, even if enacted upon by an external component. With all of that being said, the outcome of each method is heavily dependent on the engine in this given scenario as well as other factors such as the documented paramters of such methods as well as their expected types.```
+
+**2 - What are the major differences between euler angles, rotation matrices, and quaternions?**
